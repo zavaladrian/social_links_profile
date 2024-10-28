@@ -1,0 +1,75 @@
+
+
+body {
+    background: hsl(0, 0%, 8%);
+    font-family: 'Inter', 'sans-serif', 'normal';
+}
+
+.container {
+    background-color:hsl(0, 0%, 12%) ;
+    text-align: center;
+    padding: 30px 0 50px;
+    width: 384px;
+    margin: 150px auto;
+    border-radius: 5%;
+}
+
+
+.user img {
+    border-radius: 50%;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+.user h1 {
+    color: white;
+    margin: 10px;
+
+}
+
+.user h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: medium;
+    padding: 2px;
+}
+
+.user p {
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: small;
+    
+}
+
+
+.list ul   {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px;
+    margin: 13px;
+    justify-content: center;
+    text-align: center;
+ font-weight: bold;
+  }
+  
+.list ul:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (width:375px) {}
