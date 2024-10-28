@@ -43,7 +43,7 @@ body {
 }
 
 
-.list ul   {
+.list li   {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -56,7 +56,7 @@ body {
  font-weight: bold;
   }
   
-.list ul:hover {
+.list li:hover {
     background-color: hsl(75, 94%, 57%);
     color: black;
     cursor: pointer;
