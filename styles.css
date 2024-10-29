@@ -1,7 +1,4 @@
-* {
-    box-sizing: border-box;
 
-}
 
 body {
     background: hsl(0, 0%, 8%);
@@ -19,8 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
-    width:25rem;
+    padding: 10%;
+    width: 18rem;
     border-radius: 5%;
 }
 
@@ -34,13 +31,14 @@ body {
 .user h1 {
     color: white;
     margin: 10px;
-
+    font-weight: normal;
 }
 
 .user h2 {
     color: hsl(75, 94%, 57%);
     font-size: medium;
     padding: 2px;
+    font-weight: normal;
 }
 
 .user p {
@@ -52,19 +50,23 @@ body {
     
 }
 
+.list ul {
+    justify-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0
+    ;
+}
 
 .list li   {
     list-style-type: none;
     color: white;
     background-color: hsl(0, 0%, 20%);
-    padding: 20px;
-    width: 30vh;
-    margin: 10px;
-    justify-items: center;
-    text-align: center;
+    padding: 15px 0 15px 0;
+    width: 31vh;
+    margin: 10px auto;
     font-weight: bold;
-    border-radius: 15px;
-    
+    border-radius: 6px;
   }
   
 .list li:hover {
